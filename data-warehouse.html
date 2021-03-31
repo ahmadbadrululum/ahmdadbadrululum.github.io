@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Catatan Badrul - Bad blog</title>
+
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet'
+    type='text/css'>
+  <link
+    href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'
+    rel='stylesheet' type='text/css'>
+
+  <!-- Custom styles for this template -->
+  <link href="css/clean-blog.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Bads Blog</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+        data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+        aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li> -->
+          <!-- <li class="nav-item">
+            <a class="nav-link" href="post.html">Sample Post</a>
+          </li> -->
+          <!-- <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li> -->
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- Page Header -->
+  <header class="masthead" style="background-image: url('img/data-warehouse1.png')">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="post-heading">
+            <h1>Pengertian Data Warehouse, Kelebihan dan Kekurangannya</h1>
+            <!-- <h2 class="subheading">Problems look mighty small from 150 miles up</h2> -->
+            <span class="meta">Posted by
+              <a href="#">Ahmad Badrul Ulum</a>
+              Maret 29, 2021</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Post Content -->
+  <article>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <h2>Pengertian Data Warehouse</h2>
+
+          <p> Data warehouse adalah suatu sistem komputer untuk mengarsipkan dan menganalisis data historis suatu
+            organisasi seperti data penjualan, gaji, dan informasi lain dari operasi harian. Pada umumnya suatu
+            organisasi menyalin informasi dari sistem operasionalnya (seperti penjualan dan SDM) ke gudang data menurut
+            jadwal teratur, misalnya setiap malam atau setiap akhir minggu. Setelah itu, manajemen dapat melakukan kueri
+            kompleks dan analisis (contohnya penambangan data, data mining) terhadap informasi tersebut tanpa membebani
+            sistem yang operasional. via wikipedia. </p>
+
+          <h2>Karakteristik Data Warehouse</h2>
+          <p> <strong> Karakteristik Data Warehouse </strong>, Sistem basis data ini memiliki karakteristik yang
+            membuatnya berbeda dengan basis data yang lainnya. Terdapat 4 karakteristik yang menjadi ciri khas dari
+            basis data ini, yaitu:
+          </p>
+          <ol>
+            <li>Berorientasi kepada subjek</li>
+            <li>Data yang dimiliki terintegrasi</li>
+            <li>Data yang disimpan bersifat tetap</li>
+            <li>Dibuat dalam rentang waktu tertentu</li>
+          </ol>
+
+          <h2> Kelebihan Data Warehouse </h2>
+          <p> Data Warehouse memiliki kelebihan-kelebihan sebagai berikut:</p>
+          <ol>
+            <li>Data terorganisir dengan baik untuk query analisis dan sebagai bahan yang baik zuntuk proses transaksi.
+            </li>
+            <li>Perbedaan struktur data yang banyak macamnya dari sumber yang berbeda dapat di atasi.</li>
+            <li>Memiliki aturan transformasi untuk memvalidasi dan menkonsolidasi data dari OLTP ke data warehouse.</li>
+            <li>Masalah keamanan dan kinerja dapat dipecahkan tanpa perlu mengubah sistem produksi.</li>
+            <li>Memiliki model data yang banyak macamnya, dan tidak tergantung dari format data awal/sumbernya, sehingga
+              memudahkan dalam menciptakan laporan.</li>
+            <li>proses transformasi/ perpindahan dapat di monitoring. jika terjadi kesalahan dapat di arahkan / di
+              luruskan.</li>
+            <li>informasi yang disimpan dalam datawarehouse, jadi ketika OLTP data sumber nya hilang. informasi yang
+              diolah tetap terjaga dalam suatu datawarehouse.</li>
+            <li>Data Warehouse tidak memperlambat kerja operasional transaksi.</li>
+            <li>Dapat menyediakan laporan yang bermacam-macam.</li>
+          </ol>
+
+          <h2> Kekurangan Data Warehouse</h2>
+          <p> Adapun kekurangan-kekurangan dari data warehouse yaitu:</p>
+          <ol>
+            <li>Datawarehouse bukan merupakan lingkungan yang cocok untuk data yang tidak terstruktur.</li>
+            <li>Data perlu di ekstrak, diubah (ETL) dan di load ke datawarehouse sehingga membutuhkan tenggang waktu
+              untuk memindahkannya.</li>
+            <li>Semakin lama dipelihara, semakin besar biaya untuk merawat sebuah datawarehouse.</li>
+            <li>Datawarehouse dapat menjadi ketinggalan dari data terbaru yang relatif cepat, karena data yang digunakan
+              di datawarehouse tidak di update secara cepat. sehingga data yang ada tidak optimal.</li>
+          </ol>
+
+          <p> Berikut merupakan secara beberapa pengertian, lengkap dengan kelebihan dan kekurangan dari datawarehouse,
+            semoga bermanfaat!</p>
+
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <hr>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <ul class="list-inline text-center">
+            <li class="list-inline-item">
+              <a href="#">
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#">
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#">
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+          </ul>
+          <p class="copyright text-muted">Copyright &copy; Bads Blog 2021</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/clean-blog.min.js"></script>
+
+</body>
+
+</html>
